@@ -19,18 +19,17 @@
   </head>
 
   <body>
-    <!--Setup nav bar, unsure this is really necessary-->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Logan Preston</a>
+          <p class="navbar-brand">Logan Preston</p> 
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item dropdown">
-            <button onclick="dropdownAction()" class="btn-dropdown">
+            <button class="btn-dropdown" onmouseover="dropdownShow()" onmouseout="dropdownHide()">
               Projects
             </button>
-            <div id="dropdown-menu" class="dropdown-content">
+            <div id="dropdown-menu" class="dropdown-content" onmouseover="dropdownShow()" onmouseout="dropdownHide()">
               <a
                 class="dropdown-item"
                 href="https://mysterious-temple-31169.herokuapp.com"
@@ -49,15 +48,15 @@
         </ul>
       </div>
     </nav>
-    <!--Intro top section-->
+
     <h1>Hello!</h1>
     <hr class="hidden" />
     <div class="container">
       <h2 class="section-header">I'm Logan Preston, a freelance developer</h2>
       <hr />
-      <!--Three col setup-->
+      <!--Three column block-->
       <div class="row">
-        <!--Left block-->
+        <!--left block-->
         <div class="col-md">
           <p class="textBlock">
             <strong>About:</strong><br />
@@ -66,7 +65,7 @@
             to help people bring projects to life, front end or back end!
           </p>
         </div>
-        <!--Middle block-->
+        <!--middle block-->
         <div class="col-md">
           <img
             src="public/images/IMG_2298_crop.jpg"
@@ -74,7 +73,7 @@
             class="profilePic"
           />
         </div>
-        <!--Right block-->
+        <!--right block-->
         <div class="col-md">
           <p class="textBlock">
             <strong>Location:</strong><br />Madison, Wisconsin
@@ -132,7 +131,7 @@
     </div>
     <hr class="hidden" />
     <!--About me section-->
-    <h1>About Me</h1>
+    <h2>About Me</h2>
     <div class="container">
       <hr />
       <div class="row">
@@ -159,17 +158,18 @@
         <!--Left block-->
         <div class="col-md">
           <ul class="skillList">
-            <strong>Books</strong>
+            <strong>Books I'm Reading</strong>
+            <em>
             <li>When: The Scientific Secrets of Perfect Timing</li>
             <li>Brave New World</li>
+            </em>
           </ul>
         </div>
         <!--Middle block-->
         <div class="col-md">
           <ul class="skillList">
-            <strong>Hobbies</strong>
-            <li>Cooking (may be that I like a reason to sharpen my knives)</li>
-            <li>Learning!</li>
+            <strong>Hobbies I'm Trying</strong>
+            <li>Sharpening kitchen knives (cooking more fun with sharp knives!)</li>
             <li>Jewelry (attempting...) - coin rings</li>
           </ul>
         </div>
@@ -185,13 +185,14 @@
     </div>
     <!--Contact me section-->
     <hr class="hidden" />
-    <h1>Contact me and let me know how I can help you!</h1>
+    <h2>Contact me and let me know how I can help you!</h2>
     <hr />
   </body>
   <!--footer, load JS and add some links-->
   <footer>
     <script type="text/javascript" src="public/js/dropdown.js"></script>
     <script type="text/javascript" src="public/js/date.js"></script>
+    <!--actual footer-->
     <div class="footer-padding">
       <div class="footer">
         <a href="https://www.linkedin.com/in/logan-preston-032032101"
