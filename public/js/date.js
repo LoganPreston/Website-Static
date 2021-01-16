@@ -1,3 +1,4 @@
-exports.getDate=function(){
-	return new Date().getFullYear();
+function getYear(){
+	document.getElementById("nameAndDate").innerText=new Date().getFullYear();
+	return;
 } 
