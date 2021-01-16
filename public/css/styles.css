@@ -1,0 +1,248 @@
+:root{
+  --mainColor: #005874;/* #206a5d;*/
+  --secondaryColor: #ffbe00;/*#81b214;*/
+  --accentColor: #1c819e; /* #bfdcae;*/
+  --bkgColor:#e6e6d4; /* #f1f1e8;*/
+}
+/*off white background and off-black base text*/
+body {
+  background-color: var(--bkgColor);
+  color: #444444;
+  text-align: center;
+}
+
+label {
+  padding: 5px;
+}
+
+hr{
+    margin:10px;
+}
+
+/*top nav bar*/
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/*nav bar top left*/
+.navbar-brand {
+  letter-spacing: 5px;
+}
+
+/*general nav bar items*/
+.nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*nav bar hyperlink coloring*/
+.nav-item a {
+  color: var(--mainColor);
+}
+
+/*nav bar hyperlink coloring*/
+a {
+  color: var(--mainColor);
+}
+
+/*hover over hyperlinks, navbar and footer*/
+a:hover,
+a:focus {
+  color: var(--accentColor);
+}
+
+/*dropdown button default*/
+.btn-dropdown {
+  color: var(--mainColor);
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  background-color: var(--bkgColor);
+}
+
+/*dropdown button when hover, make look like other hyperlinks*/
+.btn-dropdown:hover,
+.btn-dropdown:focus {
+  text-decoration: underline;
+  color: var(--accentColor);
+}
+
+/*  position dropdown li content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: var(--bkgColor);
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--bkgColor);
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 0px rgba(22, 22, 22, 0.25);
+  border-radius: 4px;
+  text-align: left;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: var(--accentColor);
+  text-decoration: underline;
+  border-radius: 4px;
+}
+
+/* Show the dropdown menu when button clicked */
+.show {
+  display: block;
+}
+
+/*footer section, large banner on bottom*/
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: var(--mainColor);
+  padding: 0px 25px;
+  color: var(--bkgColor);
+}
+
+.footer-padding {
+  padding-bottom: 60px;
+}
+
+/*hyperlink coloring in the footer, inverse of top*/
+.footer a {
+  color: var(--bkgColor);
+  padding: 0px 25px;
+}
+
+/*general info in footer*/
+.footer p {
+  font-size: 12px;
+  padding: 5px;
+}
+
+/*general button - override bootstrap default color scheme*/
+.btn {
+  background-color: var(--mainColor);
+}
+
+/*hovering on button*/
+.btn:hover,
+.btn:focus {
+  background-color: var(--accentColor);
+  color: #222222;
+}
+
+/* color scheme https://colorhunt.co/palette/201883 206a5d 81b214 bfdcae f1f1e8 */
+
+.form-signin {
+  width: 100%;
+  max-width: 1000px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-submit{
+    text-align: left;
+}
+
+.msgContent{
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.msgContact{
+    border-radius: 5px;
+    display:inline;
+    max-width: 470px;  
+}
+
+.topLeft{
+    margin:0px 25px 25px 0px ;
+}
+
+.topRight{
+    margin:0px 0px 25px ;
+}
+
+.msgCheck{
+    border-radius: 5px;
+    max-width: 470px;
+    margin: 25px 0px;
+    align-content: left;
+}
+
+.error{
+    color:red;
+}
+
+.imgBlock{
+    max-width: 50%;
+    display: inline;
+}
+
+.textBlock{
+    position: relative;
+    top:10%;
+}
+
+.medRound{
+    width: 180px;
+    height: 120px;
+    border-radius: 5%;
+    margin:10px
+    
+}
+
+.profilePic{
+    height:225px;
+    width:225px;
+    border-radius: 50%;
+
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.skillBlock{
+    position: relative;
+    top:10%;
+    align-content: center;
+}
+
+.skillList{
+    text-align:center;
+    padding: 0px 35px;
+}
+
+.skillList li{
+    list-style-type: none;
+    margin: 0px;
+}
+
+.align-left{
+    text-align: left;
+    line-height:2em;
+}
+
+ul li::before {
+    content: "\200B";
+  }

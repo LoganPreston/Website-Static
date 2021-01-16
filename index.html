@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Logan's site</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="public/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Logan Preston</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <button onclick="dropdownAction()" class="btn-dropdown">
+              Projects
+            </button>
+            <div id="dropdown-menu" class="dropdown-content">
+              <a class="dropdown-item" href="https://mysterious-temple-31169.herokuapp.com">Newsletter Site</a>
+              <a class="dropdown-item" href="https://fierce-reef-90014.herokuapp.com/">Worklist Site</a>
+              <a class="dropdown-item" href="https://github.com/LoganPreston">github</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Hello!</h1>
+    <hr class="hidden" />
+    <div class="container">
+      <h2 class="section-header">I'm Logan Preston, a freelance developer</h2>
+      <hr />
+      <div class="row">
+        <div class="col-md">
+          <p class="textBlock">
+            <strong>About:</strong><br />
+            I'm a developer with experience primarily in Healthcare.
+            I enjoy quality development and continually learning new skills. 
+            I'm eager to help people bring projects to life, front end or back end!
+          </p>
+        </div>
+        <div class="col-md">
+            <img src="public/images/IMG_2298_crop.jpg" alt="Logan Preston Picture" class="profilePic">
+
+        </div>
+        <div class="col-md">
+          <p class="textBlock">
+            <strong>Location:</strong><br />Madison, Wisconsin
+          </p>
+          <img
+            src="public/images/Flag_of_Madison_WI.svg"
+            alt="Flag of Madison WI"
+            class="medRound"
+          />
+        </div>
+      </div>
+    </div>
+    <hr class="hidden" />
+    <div class="container">
+      <h3>Skills</h2>
+      <hr />
+      <div class="row">
+          <div class="col-md">
+              <p class="skillBlock">
+                <ul class="skillList">
+                    <strong>Very Comfortable</strong>
+                    <li>M</li>
+                    <li>C</li>
+                    <li>HTML/CSS</li>
+                </ul>
+              </p>
+          </div>
+          <div class="col-md">
+            <p class="skillBlock">
+              <ul class="skillList">
+                  <strong>Comfortable</strong>
+                  <li>Javascript (Node, Express)</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>SQL (MSSQL, Oracle)</li>
+              </ul>
+            </p>
+        </div>
+        <div class="col-md">
+            <p class="skillBlock">
+              <ul class="skillList">
+                  <strong>Familiar</strong>
+                  <li>MongoDB/Mongoose</li>
+                  <li>VBA</li>
+                  <li>Elm</li>
+              </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+    <hr class="hidden">
+    <h1>About Me</h1>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <p class="align-left">
+                I'm originally from Michigan, and went to the University of Michigan where I received my B.S.E in Chemical Engineering.<br>
+                I started my career in tech working as a Technical Services Analyst for Epic Systems, Inc. (healthcare Epic, not gaming Epic) 
+                where I realized I was interested in making coding/designing/debugging/etc. more of a central focus of my career.<br>
+                I still enjoy interacting with customers, managing projects, and providing direction (core to my role at Epic), and hope to continue doing it in the future!<br>
+                I'm working on making my full-time programming career a reality by working towards my M.S Computer Science at University of Wisconsin - Madison.
+            </p>
+        </div>
+    </div>
+    <hr class="hidden">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <ul class="skillList">
+                    <strong>Books</strong>
+                    <li>When: The Scientific Secrets of Perfect Timing</li>
+                    <li>Brave New World</li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <ul class="skillList">
+                    <strong>Hobbies</strong>
+                    <li>Cooking (may be that I like a reason to sharpen my knives)</li>
+                    <li>Learning!</li>
+                    <li>Jewelry (attempting...) - coin rings</li>
+                </ul>
+            </div>
+            <div class="col-md">
+                <ul class="skillList">
+                    <strong>General Interests</strong>
+                    <li>Helping people / improving lives</li>
+                    <li>Economics / Investing</li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr class="hidden">
+    <h1>Contact me and let me know how I can help you!</h1>
+    <hr class="hidden">
+
+
+  </body>
+  <footer>
+    <!--MUST ALWAYS PASS YEAR {year: value} to anything that includes this-->
+    <div class="footer-padding">
+      <script src="public/js/dropdown.js"></script>
+        <div class="footer">
+          <a href="https://www.linkedin.com/in/logan-preston-032032101">LinkedIn</a>
+          <a href="https://github.com/LoganPreston">github</a>
+          <a href="/contact">Contact</a>
+          <p class="name"><%=year%> Logan Preston</p>
+        </div>
+      </div>
+  </footer>
+</html>
