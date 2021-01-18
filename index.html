@@ -22,14 +22,23 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
         <div class="navbar-header">
-          <p class="navbar-brand">Logan Preston</p> 
+          <p class="navbar-brand">Logan Preston</p>
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item dropdown">
-            <button class="btn-dropdown" onmouseover="dropdownShow()" onmouseout="dropdownHide()">
+            <button
+              class="btn-dropdown"
+              onmouseover="dropdownShow()"
+              onmouseout="dropdownHide()"
+            >
               Projects
             </button>
-            <div id="dropdown-menu" class="dropdown-content" onmouseover="dropdownShow()" onmouseout="dropdownHide()">
+            <div
+              id="dropdown-menu"
+              class="dropdown-content"
+              onmouseover="dropdownShow()"
+              onmouseout="dropdownHide()"
+            >
               <a
                 class="dropdown-item"
                 href="https://mysterious-temple-31169.herokuapp.com"
@@ -87,49 +96,45 @@
       </div>
     </div>
     <hr class="hidden" />
+    <!--BROKEN PART BELOW-->
     <!--New skills section-->
     <div class="container">
-      <h3>Skills</h3>
-      <hr /> 
+      <h2>Skills</h2>
+      <hr />
       <!--Even col setup-->
       <div class="row">
-          <!--Left skillblock-->
-          <div class="col-md">
-              <p class="skillBlock">
-                <ul class="skillList">
-                    <strong>Very Comfortable</strong>
-                    <li>M</li>
-                    <li>C</li>
-                    <li>HTML/CSS</li>
-                </ul>
-              </p>
-          </div>
-          <!--middle skillblock-->
-          <div class="col-md">
-            <p class="skillBlock">
-              <ul class="skillList">
-                  <strong>Comfortable</strong>
-                  <li>Javascript (Node, Express)</li>
-                  <li>Java</li>
-                  <li>Python</li>
-                  <li>SQL (MSSQL, Oracle)</li>
-              </ul>
-            </p>
+        <!--Left skillblock-->
+        <div class="col-md">
+          <ul class="skillList">
+            <strong>Very Comfortable</strong>
+            <li>M</li>
+            <li>C</li>
+            <li>HTML/CSS</li>
+          </ul>
+        </div>
+        <!--middle skillblock-->
+        <div class="col-md">
+          <ul class="skillList">
+            <strong>Comfortable</strong>
+            <li>Javascript (Node, Express)</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL (MSSQL, Oracle)</li>
+          </ul>
         </div>
         <!--Right skillblock-->
         <div class="col-md">
-            <p class="skillBlock">
-              <ul class="skillList">
-                  <strong>Familiar</strong>
-                  <li>MongoDB/Mongoose</li>
-                  <li>VBA</li>
-                  <li>Elm</li>
-              </ul>
-            </p>
+          <ul class="skillList">
+            <strong>Familiar</strong>
+            <li>MongoDB/Mongoose</li>
+            <li>VBA</li>
+            <li>Elm</li>
+          </ul>
         </div>
       </div>
     </div>
     <hr class="hidden" />
+    <!--BROKEN PART ABOVE-->
     <!--About me section-->
     <h2>About Me</h2>
     <div class="container">
@@ -160,8 +165,8 @@
           <ul class="skillList">
             <strong>Books I'm Reading</strong>
             <em>
-            <li>When: The Scientific Secrets of Perfect Timing</li>
-            <li>Brave New World</li>
+              <li>When: The Scientific Secrets of Perfect Timing</li>
+              <li>Brave New World</li>
             </em>
           </ul>
         </div>
@@ -169,7 +174,9 @@
         <div class="col-md">
           <ul class="skillList">
             <strong>Hobbies I'm Trying</strong>
-            <li>Sharpening kitchen knives (cooking more fun with sharp knives!)</li>
+            <li>
+              Sharpening kitchen knives (cooking more fun with sharp knives!)
+            </li>
             <li>Jewelry (attempting...) - coin rings</li>
           </ul>
         </div>
@@ -186,7 +193,32 @@
     <!--Contact me section-->
     <hr class="hidden" />
     <h2>Contact me and let me know how I can help you!</h2>
-    <hr />
+
+    <div class="container">
+      <hr />
+      <!--two col setup-->
+      <div class="row">
+        <div class="col-md">
+          <a href="https://www.linkedin.com/in/logan-preston-032032101">
+            <img
+              src="public/images/LinkedIn-Logos/LI-In-Bug.png"
+              alt="linkedin logo"
+              class="icon"
+            />
+          </a>
+        </div>
+        <div class="col-md">
+          <a href="https://github.com/LoganPreston">
+            <img
+              src="public/images/GitHub-Logos/PNG/GitHub-Mark-120px-plus.png"
+              alt="github logo"
+              class="icon"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="hidden" />
   </body>
   <!--footer, load JS and add some links-->
   <footer>
@@ -195,10 +227,12 @@
     <!--actual footer-->
     <div class="footer-padding">
       <div class="footer">
+        <!--
         <a href="https://www.linkedin.com/in/logan-preston-032032101"
           >LinkedIn</a
         >
         <a href="https://github.com/LoganPreston">github</a>
+        -->
         <p class="name" id="nameAndDate">
           <script>
             getYear();

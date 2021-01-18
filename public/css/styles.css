@@ -1,8 +1,8 @@
-:root{
-  --mainColor: #005874;/* #206a5d;*/
-  --secondaryColor: #ffbe00;/*#81b214;*/
+:root {
+  --mainColor: #005874; /* #206a5d;*/
+  --secondaryColor: #ffbe00; /*#81b214;*/
   --accentColor: #1c819e; /* #bfdcae;*/
-  --bkgColor:#e6e6d4; /* #f1f1e8;*/
+  --bkgColor: #e6e6d4; /* #f1f1e8;*/
 }
 /*off white background and off-black base text*/
 body {
@@ -15,8 +15,8 @@ label {
   padding: 5px;
 }
 
-hr{
-    margin:10px;
+hr {
+  margin: 10px 10px 25px;
 }
 
 /*top nav bar*/
@@ -158,90 +158,101 @@ a:focus {
   font-size: 16px;
 }
 
-.form-submit{
-    text-align: left;
+.form-submit {
+  text-align: left;
 }
 
-.msgContent{
-    border-radius: 5px;
-    margin-bottom: 25px;
+.msgContent {
+  border-radius: 5px;
+  margin-bottom: 25px;
 }
 
-.msgContact{
-    border-radius: 5px;
-    display:inline;
-    max-width: 470px;  
+.msgContact {
+  border-radius: 5px;
+  display: inline;
+  max-width: 470px;
 }
 
-.topLeft{
-    margin:0px 25px 25px 0px ;
+.topLeft {
+  margin: 0px 25px 25px 0px;
 }
 
-.topRight{
-    margin:0px 0px 25px ;
+.topRight {
+  margin: 0px 0px 25px;
 }
 
-.msgCheck{
-    border-radius: 5px;
-    max-width: 470px;
-    margin: 25px 0px;
-    align-content: left;
+.msgCheck {
+  border-radius: 5px;
+  max-width: 470px;
+  margin: 25px 0px;
+  align-content: left;
 }
 
-.error{
-    color:red;
+.error {
+  color: red;
 }
 
-.imgBlock{
-    max-width: 50%;
-    display: inline;
+.imgBlock {
+  max-width: 50%;
+  display: inline;
 }
 
-.textBlock{
-    position: relative;
-    top:10%;
+.textBlock {
+  position: relative;
+  top: 10%;
 }
 
-.medRound{
-    width: 180px;
-    height: 120px;
-    border-radius: 5%;
-    margin:10px
-    
+.medRound {
+  width: 180px;
+  height: 120px;
+  border-radius: 5%;
+  margin: 10px;
 }
 
-.profilePic{
-    height:225px;
-    width:225px;
-    border-radius: 50%;
-
+.profilePic {
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
 }
 
-.hidden{
-    visibility: hidden;
+.hidden {
+  visibility: hidden;
 }
 
-.skillBlock{
-    position: relative;
-    top:10%;
-    align-content: center;
+.skillBlock {
+  position: relative;
+  top: 10%;
+  align-content: center;
 }
 
-.skillList{
-    text-align:center;
-    padding: 0px 35px;
+.skillList {
+  position: relative;
+  top: 10%;
+  text-align: center;
+  padding: 0px 35px;
 }
 
-.skillList li{
-    list-style-type: none;
-    margin: 0px;
+.skillList li {
+  list-style-type: none;
+  margin: 0px;
 }
 
-.align-left{
-    text-align: left;
-    line-height:2em;
+.align-left {
+  text-align: left;
+  line-height: 2em;
 }
 
 ul li::before {
-    content: "\200B";
-  }
+  content: "\200B";
+}
+
+.icon {
+  height: 64px;
+  width: 64px;
+}
+
+.name{
+  position: relative;
+  top: 25%;
+  
+}
